@@ -1,0 +1,24 @@
+<h1>New Films</h1>
+
+<%= form_with(model: @film) do |form| %>
+
+	<%= form.label :name %>
+	<%= form.text_field :name, id: :film_name %>
+
+	<%= form.label :description %>
+	<%= form.text_field :description, id: :film_description %>
+	<%= form.label :poster %>
+	<%= form.text_field :poster, id: :film_poster %>
+
+	<%= form.label :trailer %>
+	<%= form.text_field :trailer, id: :film_trailer %>
+
+	<%= form.label :rating %>
+	<%= form.number_field :rating, id: :film_rating %>
+
+	<%= form.label :released %>
+	<%= form.date_select :released, id: :film_released %>
+
+	<%= form.submit %>
+
+	<% end %>

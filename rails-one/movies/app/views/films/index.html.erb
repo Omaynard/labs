@@ -1,0 +1,23 @@
+
+	<div class = "nav">
+		<%= link_to 'New Movie', new_film_path %>
+	</div>
+
+	<% @films.each do |film| %>
+		<div class = "container">
+
+			<img src = "<%= film.poster %>" class = "image">
+			<div class = "middle">
+				<div class = "text"><%= link_to film.name, film %></div>
+			</div>
+
+		</div>
+
+
+	<% end %>
+
+
+
+
+
+

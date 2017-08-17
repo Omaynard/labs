@@ -1,0 +1,50 @@
+.main_area{
+    height:3200px;
+	width:100%;
+	background-color: black;
+	display:inline-block ;
+
+        }
+        .heading {height:100px;
+        	width: 100%;
+        	background-color:white;
+        	display:inline-block;
+        	margin-top:40px;
+            }
+        .nav_bar{ 
+        	display:inline-block;
+        	height:100px;
+        	width:100%; 
+        	background-color:red;
+        	display:inline-block;
+             z-index: 1;
+            position:fixed;
+        }
+        nav ul li{ display:inline-block ; 
+        	       margin: 5px;
+        }
+        h1{display:inline-block;
+        }
+        .portfolio{
+        	display:inline-block;
+        	height:100px;
+        	width:100%; 
+        	background-color:red;
+        	margin-top: 590px;
+        	}
+        .skills{
+        	display:inline-block;
+        	height:100px;
+        	width:100%; 
+        	background-color:red;
+        	margin-top: 590px;
+        }
+        .contact{
+        	display:inline-block;
+        	height:100px;
+        	width:100%; 
+        	background-color:red;
+        	margin-top: 590px;
+        }
+        nav ul li.a
+
